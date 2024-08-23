@@ -1,0 +1,173 @@
+/* Reseteo de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente y color base */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header .slogan {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+header .cta-button {
+    display: inline-block;
+    background-color: #e60012;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .cta-button:hover {
+    background-color: #c4000d;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Características */
+.feature {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.feature img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Testimonios */
+.testimonial {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+
+/* Precios */
+.pricing-option {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.pricing-option h3 {
+    font-size: 1.5rem;
+}
+
+.pricing-option .price {
+    font-size: 2rem;
+    color: #e60012;
+    margin: 0.5rem 0;
+}
+
+.pricing-option ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-option ul li {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-links {
+    margin-top: 0.5rem;
+}
+
+footer .social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+footer .social-icon:hover {
+    color: #e60012;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+img {
+    max-width: 150px; /* Ajusta el ancho según tu necesidad */
+    max-height: 50%; /* Mantiene la proporción original */
+}
+
